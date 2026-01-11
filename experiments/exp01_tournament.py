@@ -83,7 +83,7 @@ def run_experiment():
     sns.heatmap(heatmap_data, annot=True, fmt=".2f", cmap="YlGnBu")
     
     # 标题和标签
-    plt.title('锦标赛收益矩阵 (200轮总收益)', fontsize=14)
+    plt.title('锦标赛玩家A收益矩阵 (200轮总收益)', fontsize=14)
     plt.ylabel('玩家 A (行)', fontsize=12)
     plt.xlabel('玩家 B (列)', fontsize=12)
     
